@@ -1,0 +1,24 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Google Cloud
+.gcloudignore
+
+# Cloud Run deployment docs
+CLOUD-RUN-DEPLOYMENT.md
+
+# Firebase SAML integration docs
+FIREBASE-SAML-INTEGRATION.md
+
+# Node modules
+node_modules/
+client/client/node_modules/
+server/node_modules/
+
+# Build output
+client/client/dist/
+
+# Fortify
+.fortify/
